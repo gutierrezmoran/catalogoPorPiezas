@@ -1,0 +1,17 @@
+
+.cuadroDeTexto {
+	font-size:16px;
+	padding: 5px;
+	margin:auto;
+	box-shadow: $sombraBotonClick;
+	margin-top:3px;
+	text-align:center;
+	text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 1);
+	border-radius:3px;
+	text-align:center;
+	border-radius:3px;
+}
+
+.cuadroDeTexto:hover {
+	@include ColorTerciarioClaro;
+}

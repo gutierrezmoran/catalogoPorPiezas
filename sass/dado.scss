@@ -1,0 +1,59 @@
+.Imagen, .cara{
+	position:absolute;
+	width:$medidaDado; //1em
+	height:$medidaDado;
+}
+.dado{
+	width:$medidaDado;
+	height:$medidaDado;
+	backface-visibility: hidden;
+    transform-style: preserve-3d;
+	transition:all ease 2s;
+}
+.harnina>.trasera{
+	transform: rotateY(0deg);
+}
+.harnina>.trasera:hover{
+	transform: rotateY(180deg);
+}
+.frontal{
+	transform:rotateY(0) translateZ($translateDado);
+}
+.trasera{
+	transform: rotateY(180deg) translateZ($translateDado);
+}
+.derecha{
+	transform: rotateY(90deg) translateZ($translateDado);
+}
+.izquierda{
+	transform: rotateY(-90deg) translateZ($translateDado);
+}
+.arriba{
+    transform: rotateX(90deg) translateZ($translateDado);
+}
+.abajo{
+	transform: rotateX(-90deg) translateZ($translateDado);
+}
+
+/* -----------------------------------
+        MODIFICAR ANIMACION DADO
+--------------------------------------
+*/
+.dado:hover{
+	transform:rotateY(360deg) rotateX(360deg);
+	transition:all ease 2s;
+}
+
+/* -----------------------------------
+         FIN CAMBIAR ANIMACION
+--------------------------------------
+*/
+
+
+
+
+
+/* -------------------------------------------------------------------------------------
+    AJUSTES DE TAMAÑO SEGUN PADRE
+----------------------------------------------------------------------------------------
+*/

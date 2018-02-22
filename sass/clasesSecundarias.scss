@@ -1,0 +1,160 @@
+.s1 {
+	@include ColorPrincipal;
+}
+.s2 {
+	@include ColorPrincipalTransparente;
+}
+
+.s3 {
+	@include ColorPrincipalClaro;
+}
+.s4 {
+	@include ColorPrincipalClaroTransparente;
+}
+.s5 {
+	@include ColorPrincipalOscuro;
+}
+.s6 {
+	@include ColorPrincipalOscuroTransparente;
+}
+.s7 {
+	@include ColorSecundario;
+}
+.s8 {
+	@include ColorSecundarioTransparente;
+}
+.s9 {
+	@include ColorSecundarioClaro;
+}
+.s10 {
+	@include ColorSecundarioClaroTransparente;
+}
+.s11 {
+	@include ColorSecundarioOscuro;
+}
+.s12 {
+	@include ColorSecundarioOscuroTransparente;
+}
+
+.s13 {
+	@include ColorTerciario;
+	color:rgb(97, 103, 112);
+	text-shadow: 0.1px 0.1px 0.1px blue;
+}
+.s14 {
+	@include ColorTerciarioTransparente;
+	color:rgb(97, 103, 112);
+	text-shadow: 0.1px 0.1px 0.1px blue;
+}
+.s15 {
+	@include ColorTerciarioClaro;
+	color:rgb(97, 103, 112);
+	text-shadow: 0.1px 0.1px 0.1px blue;
+}
+.s16 {
+	@include ColorTerciarioClaroTransparente;
+	color:rgb(97, 103, 112);
+	text-shadow: 0.1px 0.1px 0.1px blue;
+}
+.s17 {
+	@include ColorTerciarioOscuro;
+	color:rgb(97, 103, 112);
+	text-shadow: 0.1px 0.1px 0.1px blue;
+}
+.s18 {
+	@include ColorTerciarioOscuroTransparente;
+	color:rgb(97, 103, 112);
+	text-shadow: 0.1px 0.1px 0.1px blue;
+}
+
+
+
+.d1 > div {
+	@include ColorPrincipal;
+  	box-shadow: $sombraDado;
+}
+
+.d2 > div {
+	@include ColorPrincipalTransparente;
+  	box-shadow: $sombraDado;
+}
+
+.d3 > div {
+	@include ColorPrincipalClaro;
+  	box-shadow: $sombraDado;
+}
+
+.d4 > div {
+    @include ColorPrincipalClaroTransparente;
+  	box-shadow: $sombraDado;
+}
+
+.d5 > div {
+	@include ColorPrincipalOscuro;
+  	box-shadow: $sombraDado;
+}
+
+.d6 > div {
+    @include ColorPrincipalOscuroTransparente;
+  	box-shadow: $sombraDado;
+}
+
+.d7 > div {
+	@include ColorSecundario;
+  	box-shadow: $sombraDado;
+}
+
+.d8 > div {
+    @include ColorSecundarioTransparente;
+  	box-shadow: $sombraDado;
+}
+
+.d9 > div {
+	@include ColorSecundarioClaro;
+  	box-shadow: $sombraDado;
+}
+
+.d10 > div {
+    @include ColorSecundarioClaroTransparente;
+  	box-shadow: $sombraDado;
+}
+
+.d11 > div {
+	@include ColorSecundarioOscuro;
+  	box-shadow: $sombraDado;
+}
+
+.d12 > div {
+    @include ColorSecundarioOscuroTransparente;
+  	box-shadow: $sombraDado;
+}
+
+.d13 > div {
+	@include ColorTerciario;
+  	box-shadow: $sombraDado;
+}
+
+.d14 > div {
+    @include ColorTerciarioTransparente;
+  	box-shadow: $sombraDado;
+}
+
+.d15 > div {
+	@include ColorTerciarioClaro;
+  	box-shadow: $sombraDado;
+}
+
+.d16 > div {
+    @include ColorTerciarioClaroTransparente;
+  	box-shadow: $sombraDado;
+}
+
+.d17 > div {
+	@include ColorTerciarioOscuro;
+  	box-shadow: $sombraDado;
+}
+
+.d18 > div {
+	@include ColorTerciarioOscuroTransparente;
+  	box-shadow: $sombraDado;
+}

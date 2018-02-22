@@ -1,0 +1,26 @@
+
+.boton {
+	font-size:16px;
+	color:white;
+	padding: 5px;
+	margin:auto;
+	box-shadow: $sombraBoton;
+	margin-top:3px;
+	text-align:center;
+	text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 1);
+	border-radius:3px;
+	cursor:pointer;
+	border: none;
+}
+.boton:hover {
+  transform:scale(1.05);
+  cursor:pointer;
+  box-shadow: $sombraBotonHover;
+  border-radius: $radiusCinco;
+}
+.boton:active {
+  transform:scale(1.0);
+  cursor:pointer;
+  box-shadow: $sombraBotonClick;
+  border-radius: $radiusCinco;
+}

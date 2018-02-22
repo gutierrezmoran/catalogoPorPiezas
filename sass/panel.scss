@@ -1,0 +1,82 @@
+
+.panel {
+	text-align:center;
+	position:relative;
+	width:1em;
+	height:2em;
+	transition:all ease 1s;
+  transform-style:preserve-3d;
+}
+
+.top {
+	margin-top:-1.6em;
+}
+
+.top:hover {
+	margin-top:0em;
+	-webkit-transform:rotateY(180deg);
+}
+
+.bottom {
+	-webkit-transform:rotateZ(-180deg);
+	margin-top: -0.05em;
+}
+
+.bottom:hover {
+	margin-top: -1.7em;
+	-webkit-transform:rotateZ(-180deg);
+	-webkit-transform:rotateX(180deg);
+}
+
+.left {
+	-webkit-transform:rotateZ(-90deg);
+	margin-left:-1em;
+}
+
+.left:hover {
+	margin-left:0.5em;
+	-webkit-transform:rotateZ(-90deg) rotateY(-180deg);
+}
+
+.right {
+	-webkit-transform: rotateZ(90deg);
+	margin-left:0.5em;
+}
+
+.right:hover {
+	 margin-left: -0.9em;
+	-webkit-transform: rotateZ(90deg) rotateY(-181deg);
+}
+
+.caraPanel {
+	position: absolute;
+	background-color: #d5e0d5;
+	height: 2em;
+    box-shadow: $sombraDado;
+}
+
+.frontalPanel {
+	width:1em;
+    transform:rotateY(0) translateZ(0.1em);
+	backface-visibility:hidden;
+}
+
+.icon-menu {
+	font-size:0.2em;
+	margin-top:8em;
+	text-align:center;
+}
+
+.traseraPanel {
+	width:1em;
+	transform: rotateY(180deg) translateZ(0.1em);
+}
+
+.izquierdaPanel {
+	width:0.2em;
+	transform: rotateY(-90deg) translateZ(0.1em);
+}
+
+.panel:hover {
+	transition:all ease 2s;
+}

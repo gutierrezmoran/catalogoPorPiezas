@@ -1,0 +1,252 @@
+/* ------------------------------------------------------------------
+		Aqui se especifican las clases que se utilizan en la estructura
+		de cada catalogo, NO SON LAS CLASES DE LAS PIEZAS
+---------------------------------------------------------------------
+*/
+
+/* ----------------------------------
+        CLASES PARA CATALOGO GENERAL
+-------------------------------------
+*/
+
+body{
+	min-width: 1300px;
+	max-width: 100%;
+}
+
+.cabecera {
+	width: 100%;
+	background-color: #001e29;
+}
+
+.subtitulo {
+	width: 98%;
+	background-color: #003245;
+	padding: 5px 0 5px 20px;
+	margin: 0 auto;
+	color: #ddd;
+	font-family: 'Roboto', sans-serif;
+}
+
+.titulo {
+	width: 98%;
+	background-color: #0D5667;
+	margin: 0 auto;
+	text-align: left;
+	padding: 10px 0 10px 20px;
+	color: #fafafa;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;
+	display: block;
+	text-decoration: none;
+}
+
+.contenido {
+	width: 80%;
+	margin: 50px auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	border-top: 2px solid #ddd;
+	border-bottom: 2px solid #ddd;
+	padding: 10px;
+}
+
+.descripcion {
+	width: 90%;
+	margin: 0 0 0 30px;
+	font-family: sans-serif;
+	color: #555;
+	padding: 8px 0;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+.estructura {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.estructura h5 {
+	font-family: sans-serif;
+	color: #333;
+}
+
+.estructura p {
+	font-family: monospace;;
+	font-size: 1em;
+}
+
+/* ------------------------------------------------
+        CLASES PARA EJEMPLOS DE MENÚS
+---------------------------------------------------
+*/
+
+.menuEjemploCatalogo{
+	width: 80%;
+	height: 500px;
+	max-width: 450px;
+	text-align: center;
+	margin: 30px;
+}
+
+/* ------------------------------------------------
+        CLASES PARA CATALOGO PANELES y DADOS
+---------------------------------------------------
+*/
+
+.grande{
+  font-size: 12em;
+}
+.medio{
+  font-size: 6em;
+}
+.peque{
+  font-size: 3em;
+}
+
+/* ------------------------------------------------
+        CLASES PARA CATALOGO PANELES
+---------------------------------------------------
+*/
+
+p {
+	font-size:12px;
+}
+
+.paneles {
+	width: 100%;
+	height: 600px;
+	border-top: 2px solid #333;
+	border-bottom: 2px solid #333;
+	display: block;
+	overflow: hidden;
+	padding: 0;
+}
+
+.barra {
+	display:flex;
+	justify-content: space-around;
+	height: 5%;
+}
+.barraLetras {
+	display:flex;
+	justify-content: space-around;
+	background-color: white;
+	height: 5%;
+	font-family: monospace;
+}
+.contenedorPrincipal {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.barraLateral {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.barraLateralExterior {
+	display: flex;
+	height:7 9%;
+	width: 60px;
+}
+.barraLateralCodigo > div > p {
+	text-align: center;
+	font-size: 10px;
+	font-family: monospace;
+}
+.barraLateralCodigo {
+	width: 50%;
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+/* ------------------------------------------------
+        CLASES PARA CATALOGO MENUS
+---------------------------------------------------
+*/
+
+.menuCatalogo {
+	width: 350px;
+	height: 500px;
+	margin: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* ------------------------------------------------
+        CLASES PARA CATALOGO CUADRO DE TEXTO
+---------------------------------------------------
+*/
+
+.cuadroDeTextoCatalogo {
+	margin: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* ------------------------------------------------
+        CLASES PARA CATALOGO DADOS
+---------------------------------------------------
+*/
+
+.dadoCatalogo {
+	margin: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.dadoCatalogo p {
+	font-family: monospace;
+	font-size: .16em;
+	width: 150px;
+	text-align: center;
+}
+
+/* ------------------------------------------------
+        CLASES PARA CATALOGO ETIQUETAS
+---------------------------------------------------
+*/
+
+.etiquetaCatalogo {
+	width: 100px;
+	margin: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+}
+
+/* ------------------------------------------------
+        CLASES PARA CATALOGO BOTONES
+---------------------------------------------------
+*/
+
+.botonCatalogo {
+	width: 100px;
+	margin: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* ------------------------------------------------
+        CLASES PARA CATALOGO FOOTER (JOSE EMILIO)
+---------------------------------------------------
+*/
+
+.footerCatalogo {
+	margin: 20px 0;
+	text-align: center;
+	font-family: monospace;
+	font-size: 1em;
+	color: #222;
+	border: 1px solid #cfcfcf;
+}
