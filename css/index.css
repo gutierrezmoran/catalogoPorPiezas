@@ -28,7 +28,7 @@ header {
 }
 
 .contenido {
-  width: 60%;
+  width: 40%;
   margin: 50px auto;
   padding: 15px;
   display: flex;
@@ -40,8 +40,8 @@ header {
 }
 
 .pieza {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;

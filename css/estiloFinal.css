@@ -2273,6 +2273,79 @@ template {
   color: #616770;
   text-shadow: 0.1px 0.1px 0.1px blue; }
 
+.superdark {
+  background: rgba(0, 0, 0, 0.9);
+  color: white; }
+
+.darkergrey {
+  background: rgba(0, 0, 0, 0.6); }
+
+.darkgrey {
+  background: rgba(0, 0, 0, 0.4); }
+
+.grey {
+  background: rgba(0, 0, 0, 0.25); }
+
+.lightgrey {
+  background: rgba(0, 0, 0, 0.15); }
+
+.lightergrey {
+  background: rgba(0, 0, 0, 0.1); }
+
+.superdarkred {
+  background: rgba(255, 0, 0, 0.9); }
+
+.darkerred {
+  background: rgba(255, 0, 0, 0.6); }
+
+.darkred {
+  background: rgba(255, 0, 0, 0.4); }
+
+.normalred {
+  background: rgba(255, 0, 0, 0.25); }
+
+.lightred {
+  background: rgba(255, 0, 0, 0.15); }
+
+.lighterred {
+  background: rgba(255, 0, 0, 0.1); }
+
+.superdarkgreen {
+  background: rgba(0, 255, 0, 0.9); }
+
+.darkergreen {
+  background: rgba(0, 255, 0, 0.6); }
+
+.darkgreen {
+  background: rgba(0, 255, 0, 0.4); }
+
+.normalgreen {
+  background: rgba(0, 255, 0, 0.25); }
+
+.lightgreen {
+  background: rgba(0, 255, 0, 0.15); }
+
+.lightergreen {
+  background: rgba(0, 255, 0, 0.1); }
+
+.superdarkblue {
+  background: rgba(0, 0, 255, 0.9); }
+
+.darkerblue {
+  background: rgba(0, 0, 255, 0.6); }
+
+.darkblue {
+  background: rgba(0, 0, 255, 0.4); }
+
+.normalblue {
+  background: rgba(0, 0, 255, 0.25); }
+
+.lightblue {
+  background: rgba(0, 0, 255, 0.15); }
+
+.lighterblue {
+  background: rgba(0, 0, 255, 0.1); }
+
 .d1 > div {
   background: #ebeef0;
   background: -moz-linear-gradient(top, #ebeef0 0%, #4891b3 22%, #4891b3 100%);

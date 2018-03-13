@@ -250,3 +250,37 @@ p {
 	color: #222;
 	border: 1px solid #cfcfcf;
 }
+
+/* ------------------------------------------------
+        CLASES PARA CATALOGO COLORES
+---------------------------------------------------
+*/
+
+.contenedorEscala {
+    width: 150px;
+}
+
+.tituloEscala p {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: #777;
+}
+
+.tituloEscala {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+}
+
+.colorEscala {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+

@@ -67,6 +67,114 @@
 	text-shadow: 0.1px 0.1px 0.1px blue;
 }
 
+// COLORES
+
+// grises
+
+.superdark {
+    background: $superdark;
+    color: $white;
+}
+
+.darkergrey {
+    background: $darkergrey;
+}
+
+.darkgrey {
+    background: $darkgrey;
+}
+
+.grey  {
+    background: $grey ;
+}
+
+.lightgrey {
+    background: $lightgrey;
+}
+
+.lightergrey {
+    background: $lightergrey;
+}
+
+// rojos
+
+.superdarkred {
+    background: $superdarkred;
+}
+
+.darkerred {
+    background: $darkerred;
+}
+
+.darkred {
+    background: $darkred;
+}
+
+.normalred {
+    background: $normalred;
+}
+
+.lightred {
+    background: $lightred;
+}
+
+.lighterred {
+    background: $lighterred;
+}
+
+// verdes
+
+.superdarkgreen {
+    background: $superdarkgreen;
+}
+
+.darkergreen {
+    background: $darkergreen;
+}
+
+.darkgreen {
+    background: $darkgreen;
+}
+
+.normalgreen {
+    background: $normalgreen;
+}
+
+.lightgreen {
+    background: $lightgreen;
+}
+
+.lightergreen {
+    background: $lightergreen;
+}
+
+// azules
+
+.superdarkblue {
+    background: $superdarkblue;
+}
+
+.darkerblue {
+    background: $darkerblue;
+}
+
+.darkblue {
+    background: $darkblue;
+}
+
+.normalblue {
+    background: $normalblue;
+}
+
+.lightblue {
+    background: $lightblue;
+}
+
+.lighterblue {
+    background: $lighterblue;
+}
+
+
 
 
 .d1 > div {

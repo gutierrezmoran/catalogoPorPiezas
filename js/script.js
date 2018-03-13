@@ -12,6 +12,7 @@ var p5 = document.getElementById('p5');
 var p6 = document.getElementById('p6');
 var p7 = document.getElementById('p7');
 var p8 = document.getElementById('p8');
+var p9 = document.getElementById('p9');
 
 /* ----------------
         FUNCIONES
@@ -61,6 +62,7 @@ window.addEventListener('load',
     establecerColor(p6, 1);
     establecerColor(p7, 1);
     establecerColor(p8, 1);
+    establecerColor(p9, 1);
   }, false);
 
 p1.addEventListener('mouseover',
@@ -101,4 +103,9 @@ p7.addEventListener('mouseover',
 p8.addEventListener('mouseover',
   function () {
     establecerColor(p8, 1);
+  }, false);
+
+p9.addEventListener('mouseover',
+  function () {
+    establecerColor(p9, 1);
   }, false);
