@@ -69,6 +69,37 @@
 
 // COLORES
 
+// colores base
+
+.basecolor {
+    background: $basecolor;
+}
+
+.baselight {
+    background: $baselight;
+}
+
+.secondary {
+    background: $secondary;
+}
+
+.compcolor {
+    background: $compcolor;
+}
+
+.bordercolor {
+    background: $bordercolor;
+}
+
+.white {
+    background: $white;
+}
+
+.black {
+    background: $black;
+    color: white;
+}
+
 // grises
 
 .superdark {
@@ -152,6 +183,7 @@
 
 .superdarkblue {
     background: $superdarkblue;
+    color: white;
 }
 
 .darkerblue {
@@ -174,6 +206,102 @@
     background: $lighterblue;
 }
 
+// enlaces
+
+.enlaceFondo {
+    background: $enlace_fondo;
+    color: white;
+}
+
+.enlaceTexto {
+    background: $enlace_texto;
+}
+
+// Alertas y PopUs
+
+.alertColor {
+    background: $alertcolor;
+}
+
+.errorColor {
+    background: $errorcolor;
+}
+
+.infoColor {
+    background: $infocolor;
+}
+
+.inversColor {
+    background: $inverscolor;
+}
+
+.successColor {
+    background: $successcolor;
+}
+
+.warningColor {
+    background: $warningcolor;
+}
+
+// Alertas y PopUs
+
+.alertColor {
+    background: $alertcolor;
+}
+
+.errorColor {
+    background: $errorcolor;
+    color: white;
+}
+
+.infoColor {
+    background: $infocolor;
+}
+
+.inversColor {
+    background: $inverscolor;
+    color: white;
+}
+
+.successColor {
+    background: $successcolor;
+}
+
+.warningColor {
+    background: $warningcolor;
+}
+
+// Social
+
+.facebook {
+    background: $facebook;
+    color: white;
+}
+
+.twitter {
+    background: $twitter;
+    color: white;
+}
+
+.googlePlus {
+    background: $googleplus;
+    color: white;
+}
+
+.pinterest {
+    background: $pinterest;
+    color: white;
+}
+
+.skype {
+    background: $skype;
+    color: white;
+}
+
+.spotify {
+    background: $spotify;
+    color: white;
+}
 
 
 
