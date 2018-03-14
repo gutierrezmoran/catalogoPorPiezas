@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$sombraBotonClick".
-        on line 10 of G:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\etiqueta.scss
+        on line 10 of D:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\etiqueta.scss
 
 5: 	margin:auto;
 6: 	text-align:center;
@@ -11,7 +11,7 @@ Error: Undefined variable: "$sombraBotonClick".
 11:   }
 
 Backtrace:
-G:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\etiqueta.scss:10
+D:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\etiqueta.scss:10
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -58,4 +58,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$sombraBotonClick\".\A         on line 10 of G:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\etiqueta.scss\A \A 5: 	margin:auto;\A 6: 	text-align:center;\A 7: 	border-radius:5px;\A 8: 	line-height: 2.15;\A 9: 	font-size:16px;\A 10: 	box-shadow:$sombraBotonClick;\A 11:   }"; }
+  content: "Error: Undefined variable: \"$sombraBotonClick\".\A         on line 10 of D:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\etiqueta.scss\A \A 5: 	margin:auto;\A 6: 	text-align:center;\A 7: 	border-radius:5px;\A 8: 	line-height: 2.15;\A 9: 	font-size:16px;\A 10: 	box-shadow:$sombraBotonClick;\A 11:   }"; }

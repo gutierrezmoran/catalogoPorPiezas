@@ -1,0 +1,62 @@
+@media screen and (max-width: 1200px) {
+
+    .titulo {
+        width: 96%;
+    }
+
+    .subtitulo {
+        width: 96%;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .paneles {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .descripcion {
+        text-align: justify;
+        margin: 0 30px;
+        width: auto;
+        padding: 20px 0;
+    }
+
+    .estructura {
+        display: none;
+    }
+
+    .contenido {
+        margin: 0 auto 20px auto;
+        padding: 0;
+        width: auto;
+    }
+
+    .botonCatalogo {
+        margin: 10px;
+    }
+
+    .footerCatalogo {
+        border: none;
+        border-top: 1px solid #cfcfcf;
+        border-bottom: 1px solid #cfcfcf;
+    }
+
+    .titulo {
+        width: auto;
+        padding: 3px 15px 3px 15px;
+        font-size: 2.5em;
+    }
+
+    .subtitulo {
+        width: auto;
+        text-align: center;
+        padding: 3px 0 3px 0;
+    }
+
+}
