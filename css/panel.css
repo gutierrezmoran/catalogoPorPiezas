@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$sombraDado".
-        on line 55 of D:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\panel.scss
+        on line 55 of G:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\panel.scss
 
 50:
 51: .caraPanel {
@@ -15,7 +15,7 @@ Error: Undefined variable: "$sombraDado".
 60:     transform:rotateY(0) translateZ(0.1em);
 
 Backtrace:
-D:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\panel.scss:55
+G:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\panel.scss:55
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$sombraDado\".\A         on line 55 of D:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\panel.scss\A \A 50: \A 51: .caraPanel {\A 52: 	position: absolute;\A 53: 	background-color: #d5e0d5;\A 54: 	height: 2em;\A 55:     box-shadow: $sombraDado;\A 56: }\A 57: \A 58: .frontalPanel {\A 59: 	width:1em;\A 60:     transform:rotateY(0) translateZ(0.1em);"; }
+  content: "Error: Undefined variable: \"$sombraDado\".\A         on line 55 of G:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\panel.scss\A \A 50: \A 51: .caraPanel {\A 52: 	position: absolute;\A 53: 	background-color: #d5e0d5;\A 54: 	height: 2em;\A 55:     box-shadow: $sombraDado;\A 56: }\A 57: \A 58: .frontalPanel {\A 59: 	width:1em;\A 60:     transform:rotateY(0) translateZ(0.1em);"; }

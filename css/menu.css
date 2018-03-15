@@ -10,7 +10,7 @@ Error: Undefined variable: "$sombraBotonHover".
 10: 	box-shadow: $sombraBotonHover;
 11: 	border-radius: 10px;
 12: 	font-family: "Homer Simpson", cursive;
-13: 	font-size:16px;
+13: 	font-size:.08em;
 14: 	}
 15: .menu>*{
 
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$sombraBotonHover\".\A         on line 10 of D:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\menu.scss\A \A 5: 	justify-content:space-around;\A 6: 	width:100%;\A 7: 	height:100%;\A 8: 	display:flex;\A 9: 	margin:auto;\A 10: 	box-shadow: $sombraBotonHover;\A 11: 	border-radius: 10px;\A 12: 	font-family: \"Homer Simpson\", cursive;\A 13: 	font-size:16px;\A 14: 	}\A 15: .menu>*{"; }
+  content: "Error: Undefined variable: \"$sombraBotonHover\".\A         on line 10 of D:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\menu.scss\A \A 5: 	justify-content:space-around;\A 6: 	width:100%;\A 7: 	height:100%;\A 8: 	display:flex;\A 9: 	margin:auto;\A 10: 	box-shadow: $sombraBotonHover;\A 11: 	border-radius: 10px;\A 12: 	font-family: \"Homer Simpson\", cursive;\A 13: 	font-size:.08em;\A 14: 	}\A 15: .menu>*{"; }

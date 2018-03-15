@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'ColorPrincipal'.
-        on line 2 of D:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\clasesSecundarias.scss, in `ColorPrincipal'
-        from line 2 of D:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\clasesSecundarias.scss
+        on line 2 of G:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\clasesSecundarias.scss, in `ColorPrincipal'
+        from line 2 of G:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\clasesSecundarias.scss
 
 1: .s1 {
 2: 	@include ColorPrincipal;
@@ -12,8 +12,8 @@ Error: Undefined mixin 'ColorPrincipal'.
 7:
 
 Backtrace:
-D:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\clasesSecundarias.scss:2:in `ColorPrincipal'
-D:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\clasesSecundarias.scss:2
+G:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\clasesSecundarias.scss:2:in `ColorPrincipal'
+G:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\clasesSecundarias.scss:2
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'ColorPrincipal'.\A         on line 2 of D:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\clasesSecundarias.scss, in `ColorPrincipal'\A         from line 2 of D:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\clasesSecundarias.scss\A \A 1: .s1 {\A 2: 	@include ColorPrincipal;\A 3: }\A 4: .s2 {\A 5: 	@include ColorPrincipalTransparente;\A 6: }\A 7: "; }
+  content: "Error: Undefined mixin 'ColorPrincipal'.\A         on line 2 of G:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\clasesSecundarias.scss, in `ColorPrincipal'\A         from line 2 of G:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\clasesSecundarias.scss\A \A 1: .s1 {\A 2: 	@include ColorPrincipal;\A 3: }\A 4: .s2 {\A 5: 	@include ColorPrincipalTransparente;\A 6: }\A 7: "; }

@@ -2273,6 +2273,28 @@ template {
   color: #616770;
   text-shadow: 0.1px 0.1px 0.1px blue; }
 
+.basecolor {
+  background: #07b5cd; }
+
+.baselight {
+  background: #8beefb; }
+
+.secondary {
+  background: spin(#07b5cd, 30); }
+
+.compcolor {
+  background: #da802d; }
+
+.bordercolor {
+  background: #10dbf7; }
+
+.white {
+  background: white; }
+
+.black {
+  background: black;
+  color: white; }
+
 .superdark {
   background: rgba(0, 0, 0, 0.9);
   color: white; }
@@ -2329,7 +2351,8 @@ template {
   background: rgba(0, 255, 0, 0.1); }
 
 .superdarkblue {
-  background: rgba(0, 0, 255, 0.9); }
+  background: rgba(0, 0, 255, 0.9);
+  color: white; }
 
 .darkerblue {
   background: rgba(0, 0, 255, 0.6); }
@@ -2345,6 +2368,75 @@ template {
 
 .lighterblue {
   background: rgba(0, 0, 255, 0.1); }
+
+.enlaceFondo {
+  background: #361fad;
+  color: white; }
+
+.enlaceTexto {
+  background: white; }
+
+.alertColor {
+  background: #fcf8e3; }
+
+.errorColor {
+  background: #da4f49; }
+
+.infoColor {
+  background: #d9edf7; }
+
+.inversColor {
+  background: #414141; }
+
+.successColor {
+  background: #5bb75b; }
+
+.warningColor {
+  background: #faa732; }
+
+.alertColor {
+  background: #fcf8e3; }
+
+.errorColor {
+  background: #da4f49;
+  color: white; }
+
+.infoColor {
+  background: #d9edf7; }
+
+.inversColor {
+  background: #414141;
+  color: white; }
+
+.successColor {
+  background: #5bb75b; }
+
+.warningColor {
+  background: #faa732; }
+
+.facebook {
+  background: #3b59b6;
+  color: white; }
+
+.twitter {
+  background: #4099ff;
+  color: white; }
+
+.googlePlus {
+  background: #dd4b39;
+  color: white; }
+
+.pinterest {
+  background: #cb2027;
+  color: white; }
+
+.skype {
+  background: #12a5f4;
+  color: white; }
+
+.spotify {
+  background: #81b71a;
+  color: white; }
 
 .d1 > div {
   background: #ebeef0;
@@ -2779,29 +2871,36 @@ p {
         CLASES PARA CATALOGO COLORES
 ---------------------------------------------------
 */
-.contenedorEscala {
+.contenedorColores {
   width: 150px;
   margin: 10px; }
 
-.tituloEscala p {
+.tituloColores p {
   font-family: sans-serif;
   font-weight: bold;
   font-size: 1em;
   color: #777; }
 
-.tituloEscala {
+.tituloColores {
   display: flex;
   justify-content: center;
   align-items: center;
   background: #eee; }
 
-.colorEscala {
+.color {
   width: 100%;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: monospace; }
+
+/* ------------------------------------------------
+        CLASES PARA CATALOGO PANELES
+---------------------------------------------------
+*/
+.catalogoPanel {
+  display: flex; }
 
 @media screen and (max-width: 1200px) {
   .titulo {
@@ -2837,8 +2936,8 @@ p {
 
   .titulo {
     width: auto;
-    padding: 3px 15p 3px 15px;
-    font-size: 3em; }
+    padding: 3px 15px 3px 15px;
+    font-size: 2.5em; }
 
   .subtitulo {
     width: auto;

@@ -247,4 +247,20 @@ p {
   align-items: center;
   font-family: monospace; }
 
+/* ------------------------------------------------
+        CLASES PARA CATALOGO PANELES
+---------------------------------------------------
+*/
+.catalogoPanel {
+  display: flex; }
+
+/* ------------------------------------------------
+        CLASES PARA EJEMPLOS DE PANELES
+---------------------------------------------------
+*/
+.contenidoEjemplosPaneles {
+  margin: 0 auto;
+  border: none;
+  overflow: hidden; }
+
 /*# sourceMappingURL=catalogo.css.map */

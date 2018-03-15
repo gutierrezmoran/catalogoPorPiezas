@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$black".
-        on line 11 of D:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\footer.scss
+        on line 11 of G:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\footer.scss
 
 6:     height: 100%;
 7:     min-width: 100%;
@@ -13,7 +13,7 @@ Error: Undefined variable: "$black".
 14: }
 
 Backtrace:
-D:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\footer.scss:11
+G:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\footer.scss:11
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -60,4 +60,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black\".\A         on line 11 of D:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\footer.scss\A \A 6:     height: 100%;\A 7:     min-width: 100%;\A 8:     padding: 15px 0;\A 9:     text-align: center;\A 10:     font-family: sans-serif;\A 11:     color: $black;\A 12:     font-weight: bold;\A 13:     letter-spacing: 2px;\A 14: }"; }
+  content: "Error: Undefined variable: \"$black\".\A         on line 11 of G:\PrimeroDAM\Lenguaje de marcas\evaluacion 2\catalogoPorPiezasJOSEEMILIO\sass\footer.scss\A \A 6:     height: 100%;\A 7:     min-width: 100%;\A 8:     padding: 15px 0;\A 9:     text-align: center;\A 10:     font-family: sans-serif;\A 11:     color: $black;\A 12:     font-weight: bold;\A 13:     letter-spacing: 2px;\A 14: }"; }
